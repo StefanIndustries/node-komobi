@@ -1,0 +1,4002 @@
+{
+  "user": [
+    {
+      "userEmail": "rider@example.com",
+      "updatedAt": 1793367456,
+      "userFleetId": "11111111-1111-1111-1111-111111111111",
+      "emergencyContacts": [],
+      "userProfile": {
+        "firstName": "Stefan",
+        "lastName": "Simon",
+        "phone": {
+          "prefix": "+31",
+          "phoneNumber": 653229298,
+          "verified": true,
+          "pendingPhoneVerificationId": null
+        },
+        "city": null,
+        "country": null,
+        "postalCode": null,
+        "birthdate": null,
+        "language": "en",
+        "region": "GB",
+        "logo": null
+      },
+      "platform": "KOMOBI",
+      "hasLoggedIn": false
+    }
+  ],
+  "vehicles": {
+    "items": [
+      {
+        "vehicleId": "22222222-2222-2222-2222-222222222222",
+        "deviceId": "860000000000000",
+        "supplierId": null,
+        "operatorId": null,
+        "ownerId": "33333333-3333-3333-3333-333333333333",
+        "assignedRiderId": null,
+        "registrationNumber": "00-XXX-0",
+        "userFleetId": "11111111-1111-1111-1111-111111111111",
+        "registrationCountry": "NL",
+        "vin": null,
+        "brand": "KAWASAKI",
+        "model": "Z 650 RS",
+        "status": "active",
+        "currentKm": 821,
+        "purchaseYear": 2026,
+        "name": null,
+        "others": null,
+        "logo": "https://example.invalid/logo.png",
+        "type": "CH",
+        "battery": 13.7,
+        "lastVehicleInspectionDate": null,
+        "nextVehicleInspectionDate": null,
+        "vehicleSettings": {
+          "showLocations": {
+            "owner": true,
+            "operator": true,
+            "supplier": true
+          },
+          "sendInvitationalViewEmail": {
+            "operator": false,
+            "supplier": false
+          },
+          "createVehicleSharedItemWhenAssigned": {
+            "operator": false,
+            "supplier": false
+          }
+        },
+        "lastActivity": 1794313986,
+        "serialNumber": "SERIAL0001",
+        "groupElementCreatedAt": null,
+        "insuranceExpirationDate": null,
+        "vehicleExciseDuty": null,
+        "cylinderCapacity": null,
+        "power": null,
+        "isElectric": false,
+        "registrationDate": null,
+        "lastConnection": 1794240955,
+        "ownerContactName": "LIVELINK MOTOR",
+        "warnings": [],
+        "device": {
+          "deviceId": "860000000000000",
+          "serialNumber": "SERIAL0001",
+          "alarms": {
+            "config": {
+              "alarmSensitivity": 2,
+              "alarmMode": "1",
+              "alarmType": 2,
+              "enabled": true
+            },
+            "status": {
+              "finishedAlarmsToCheckByUser": {
+                "amount": 0,
+                "ids": []
+              },
+              "isFired": false,
+              "lastAlarm": {
+                "id": 10,
+                "timestamp": 1793452576
+              },
+              "notif": {
+                "calls": {
+                  "lastCallOn": null,
+                  "completedCalls": 0
+                },
+                "pushes": {
+                  "lastPushOn": 1793452578,
+                  "completedPushes": null
+                }
+              }
+            }
+          },
+          "config": {
+            "firmwareVersion": 54,
+            "iccId": "8900000000000000000",
+            "simProvider": "WIRELESS_LOGIC",
+            "fwType": "KMB",
+            "mType": "18",
+            "oGroup": 34,
+            "imuOffset": "-1734,-2550,1614,-6,-28,128",
+            "forgottenKeyRange": 2
+          },
+          "digitalOutput": {
+            "output0": {
+              "type": 0,
+              "applicationType": "None",
+              "status": 0,
+              "pendingCommand": null
+            },
+            "output1": {
+              "type": 0,
+              "applicationType": "None",
+              "status": 0,
+              "pendingCommand": null
+            }
+          },
+          "status": {
+            "isActive": true,
+            "isMuted": false,
+            "isBeaconOn": false,
+            "turnedOff": false,
+            "parked": true,
+            "workshopMode": false,
+            "operationMode": "PARKED",
+            "battery": {
+              "internal": {
+                "unit": "%",
+                "value": 80
+              },
+              "external": {
+                "unit": "V",
+                "value": 13.1
+              }
+            },
+            "lastComunication": {
+              "timestamp": 1794313986,
+              "communicationChannel": ""
+            },
+            "lastTelemetry": {
+              "timestamp": 1794240955,
+              "messageType": "SERVER_INFO"
+            },
+            "calibration": 1,
+            "lastLocation": {
+              "gps": {
+                "location": {
+                  "latitude": 51.948567,
+                  "longitude": 5.910607
+                },
+                "accuracy": {
+                  "unit": "m",
+                  "value": 6
+                },
+                "speed": {
+                  "unit": "km/h",
+                  "value": 0
+                }
+              }
+            }
+          },
+          "ecall": {
+            "config": {
+              "eCallMode": "1"
+            },
+            "status": {
+              "accidentIsFired": false,
+              "lastAccidentIdFired": null
+            }
+          },
+          "keychains": [
+            {
+              "name": "rKtmYpwV",
+              "bleId": "CFFBCA9CF8A8",
+              "config": {
+                "rssi": -80,
+                "forgotNotificationActive": true
+              },
+              "status": {
+                "battery": {
+                  "unit": "%",
+                  "value": "100"
+                },
+                "lastComunication": {
+                  "timestamp": 1794240955
+                },
+                "enabled": true,
+                "forgotNotificationWarning": false
+              }
+            }
+          ],
+          "services": {
+            "connectivity": {
+              "isActive": true,
+              "isEnabled": true,
+              "startDateTimestamp": 1793318400,
+              "endDateTimestamp": 1888099199,
+              "odooSubscriptionId": 232887,
+              "renewQuotation": {
+                "url": null,
+                "creationDateTimestamp": null
+              }
+            },
+            "phone": {
+              "isActive": true,
+              "isEnabled": true,
+              "startDateTimestamp": 1793318400,
+              "endDateTimestamp": 1888099199,
+              "odooSubscriptionId": 232887,
+              "renewQuotation": {
+                "url": null,
+                "creationDateTimestamp": null
+              }
+            },
+            "pro": {
+              "isActive": false,
+              "isEnabled": true,
+              "startDateTimestamp": null,
+              "endDateTimestamp": null,
+              "odooSubscriptionId": null,
+              "renewQuotation": {
+                "url": null,
+                "creationDateTimestamp": null
+              }
+            }
+          }
+        }
+      }
+    ],
+    "count": 1
+  },
+  "routes": {
+    "items": [
+      {
+        "2026-11-09": [
+          {
+            "vehicle": {
+              "vehicleId": "22222222-2222-2222-2222-222222222222",
+              "registrationNumber": "00-XXX-0",
+              "logo": "https://example.invalid/logo.png"
+            },
+            "routes": [
+              {
+                "routeId": 41,
+                "extendRouteId": 1794239815,
+                "routeName": "Route-41",
+                "dateEnd": 1794240955,
+                "dateInit": 1794239815,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 36
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1794207984,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.91127,
+                        "longitude": 5.861754
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1794240955,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948567,
+                        "longitude": 5.910607
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1794239815,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.91109283368105,
+                        "longitude": 5.86174160811382
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 54
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 2
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.93272180435536,
+                            "longitude": 5.8833943746637445
+                          }
+                        },
+                        "value": 26.3,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.9139398542359,
+                            "longitude": 5.875875596361225
+                          }
+                        },
+                        "value": -23,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 40.85988103106411
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.91800418795247,
+                            "longitude": 5.875482945620516
+                          }
+                        },
+                        "value": 81,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 11.651
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.059336823734729496
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 191
+                    }
+                  },
+                  "drivingScore": 8.9,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 1151
+                  }
+                }
+              },
+              {
+                "routeId": 40,
+                "extendRouteId": 1794207222,
+                "routeName": "Route-40",
+                "dateEnd": 1794207984,
+                "dateInit": 1794207222,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 350,
+                      "psiCounterAutoCalib": 22
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1794151900,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948526,
+                        "longitude": 5.910592
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1794207984,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.91127,
+                        "longitude": 5.861754
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1794207222,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.94862857887277,
+                        "longitude": 5.910528230229053
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 27
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 15
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.91526164064783,
+                            "longitude": 5.866969991811878
+                          }
+                        },
+                        "value": 18,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.95089415283988,
+                            "longitude": 5.878551301791939
+                          }
+                        },
+                        "value": -16,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 49.13228035538006
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.9281620467725,
+                            "longitude": 5.876389300553841
+                          }
+                        },
+                        "value": 105,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 8.737
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0078125
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 128
+                    }
+                  },
+                  "drivingScore": 9,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 773
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "2026-11-08": [
+          {
+            "vehicle": {
+              "vehicleId": "22222222-2222-2222-2222-222222222222",
+              "registrationNumber": "00-XXX-0",
+              "logo": "https://example.invalid/logo.png"
+            },
+            "routes": [
+              {
+                "routeId": 39,
+                "extendRouteId": 1794148582,
+                "routeName": "Route-39",
+                "dateEnd": 1794151900,
+                "dateInit": 1794148582,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 115
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1794144338,
+                    "gps": {
+                      "location": {
+                        "latitude": 52.15937,
+                        "longitude": 6.395323
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1794151900,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948526,
+                        "longitude": 5.910592
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1794148582,
+                    "gps": {
+                      "location": {
+                        "latitude": 52.15939554176406,
+                        "longitude": 6.395392926096966
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 39
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 52.10825640524825,
+                            "longitude": 6.1676411660101875
+                          }
+                        },
+                        "value": 27,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 52.108584629827874,
+                            "longitude": 6.167524694841757
+                          }
+                        },
+                        "value": -25.6,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 57.310736756647046
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 52.06540180091497,
+                            "longitude": 6.130752042737332
+                          }
+                        },
+                        "value": 110,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 49.656
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0006016847172081829
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 554
+                    }
+                  },
+                  "drivingScore": 8.9,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 3329
+                  }
+                }
+              },
+              {
+                "routeId": 38,
+                "extendRouteId": 1794140660,
+                "routeName": "Route-38",
+                "dateEnd": 1794144338,
+                "dateInit": 1794140660,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 127
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1794067696,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.94851,
+                        "longitude": 5.910587
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1794144338,
+                    "gps": {
+                      "location": {
+                        "latitude": 52.15937,
+                        "longitude": 6.395323
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1794140660,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.94869185260384,
+                        "longitude": 5.910427922739334
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 54
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 22
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 52.108673438703406,
+                            "longitude": 6.1679705245453444
+                          }
+                        },
+                        "value": 27.1,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 52.108484614188896,
+                            "longitude": 6.168229930329832
+                          }
+                        },
+                        "value": -22.4,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 53.50508336722245
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 52.10073274029805,
+                            "longitude": 6.167441346233561
+                          }
+                        },
+                        "value": 107,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 49.955
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.06487513572204126
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 614
+                    }
+                  },
+                  "drivingScore": 0,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 3689
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "2026-11-07": [
+          {
+            "vehicle": {
+              "vehicleId": "22222222-2222-2222-2222-222222222222",
+              "registrationNumber": "00-XXX-0",
+              "logo": "https://example.invalid/logo.png"
+            },
+            "routes": [
+              {
+                "routeId": 37,
+                "extendRouteId": 1794067630,
+                "routeName": "Route-37",
+                "dateEnd": 1794067696,
+                "dateInit": 1794067630,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 0,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": false,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 0,
+                      "psiCounterAutoCalib": 0
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1794067466,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948556,
+                        "longitude": 5.910595
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1794067696,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948512,
+                        "longitude": 5.910588
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1794067630,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948553706277046,
+                        "longitude": 5.910712677303401
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 27
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.948542,
+                            "longitude": 5.910608
+                          }
+                        },
+                        "value": 0.3,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.948537,
+                            "longitude": 5.910602
+                          }
+                        },
+                        "value": -12.4,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 0
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": null,
+                            "longitude": null
+                          }
+                        },
+                        "value": 0,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 0.024
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.027777777777777776
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 12
+                    }
+                  },
+                  "drivingScore": 0,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 77
+                  }
+                }
+              },
+              {
+                "routeId": 36,
+                "extendRouteId": 1794064838,
+                "routeName": "Route-36",
+                "dateEnd": 1794067466,
+                "dateInit": 1794064838,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 108
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1794064641,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948553,
+                        "longitude": 5.910568
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1794067466,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948556,
+                        "longitude": 5.910595
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1794064838,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.94857103437447,
+                        "longitude": 5.910651035126046
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 27
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.94883943437721,
+                            "longitude": 5.910129843136374
+                          }
+                        },
+                        "value": 24.3,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.9845179989114,
+                            "longitude": 5.979023017695996
+                          }
+                        },
+                        "value": -28.1,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 47.73929642759749
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 52.010357571130804,
+                            "longitude": 5.942064134335418
+                          }
+                        },
+                        "value": 105,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 27.974
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0011389521640091116
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 439
+                    }
+                  },
+                  "drivingScore": 1.9,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 2639
+                  }
+                }
+              },
+              {
+                "routeId": 35,
+                "extendRouteId": 1794064119,
+                "routeName": "Route-35",
+                "dateEnd": 1794064641,
+                "dateInit": 1794064119,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 167,
+                      "psiCounterAutoCalib": 9
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1794061619,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.947995,
+                        "longitude": 5.933175
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1794064641,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948553,
+                        "longitude": 5.910568
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1794064119,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.9479065,
+                        "longitude": 5.933207000000001
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 18
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.94858788416252,
+                            "longitude": 5.934176143761495
+                          }
+                        },
+                        "value": 19.4,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.96024872046112,
+                            "longitude": 5.902992614202617
+                          }
+                        },
+                        "value": -17.3,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 49.76842105263158
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.95075097958261,
+                            "longitude": 5.93287072415417
+                          }
+                        },
+                        "value": 117,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 5.657
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.08522727272727272
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 88
+                    }
+                  },
+                  "drivingScore": 8.9,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 533
+                  }
+                }
+              },
+              {
+                "routeId": 34,
+                "extendRouteId": 1794061583,
+                "routeName": "Route-34",
+                "dateEnd": 1794061619,
+                "dateInit": 1794061583,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 0,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": false,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 0,
+                      "psiCounterAutoCalib": 0
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1794061443,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.947973,
+                        "longitude": 5.933137
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1794061619,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.947993,
+                        "longitude": 5.933181
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1794061583,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948070162564115,
+                        "longitude": 5.93298293726878
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 27
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": null,
+                            "longitude": null
+                          }
+                        },
+                        "value": 0,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.947996,
+                            "longitude": 5.933169
+                          }
+                        },
+                        "value": -19.9,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 10.6
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.948070162564115,
+                            "longitude": 5.93298293726878
+                          }
+                        },
+                        "value": 12,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 0.024
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.5952380952380952
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 7
+                    }
+                  },
+                  "drivingScore": 10,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 47
+                  }
+                }
+              },
+              {
+                "routeId": 33,
+                "extendRouteId": 1794060477,
+                "routeName": "Route-33",
+                "dateEnd": 1794061443,
+                "dateInit": 1794060477,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 395,
+                      "psiCounterAutoCalib": 41
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1794060420,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.89033,
+                        "longitude": 6.022418
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1794061443,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.947973,
+                        "longitude": 5.933137
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1794060477,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.89027570523744,
+                        "longitude": 6.022469200449323
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 18
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 24
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.90740192180638,
+                            "longitude": 5.970735037492137
+                          }
+                        },
+                        "value": 19.4,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.941121478254125,
+                            "longitude": 5.940498153739029
+                          }
+                        },
+                        "value": -21.7,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 45.92392717815345
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.90934058433476,
+                            "longitude": 5.967378721248046
+                          }
+                        },
+                        "value": 100,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 11.603
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0030864197530864196
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 162
+                    }
+                  },
+                  "drivingScore": 9.9,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 977
+                  }
+                }
+              },
+              {
+                "routeId": 32,
+                "extendRouteId": 1794059190,
+                "routeName": "Route-32",
+                "dateEnd": 1794060420,
+                "dateInit": 1794059190,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 482,
+                      "psiCounterAutoCalib": 33
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793985655,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948504,
+                        "longitude": 5.910598
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1794060420,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.89033,
+                        "longitude": 6.022418
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1794059190,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948525,
+                        "longitude": 5.910808
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 27
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.904601874298876,
+                            "longitude": 5.988436905713182
+                          }
+                        },
+                        "value": 28.2,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.92271837634109,
+                            "longitude": 5.949127210705109
+                          }
+                        },
+                        "value": -24.6,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 51.25162337662338
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.95702388228416,
+                            "longitude": 5.910826375282931
+                          }
+                        },
+                        "value": 99,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 15.547
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0008090614886731392
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 206
+                    }
+                  },
+                  "drivingScore": 9.9,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 1241
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "2026-11-06": [
+          {
+            "vehicle": {
+              "vehicleId": "22222222-2222-2222-2222-222222222222",
+              "registrationNumber": "00-XXX-0",
+              "logo": "https://example.invalid/logo.png"
+            },
+            "routes": [
+              {
+                "routeId": 31,
+                "extendRouteId": 1793985247,
+                "routeName": "Route-31",
+                "dateEnd": 1793985655,
+                "dateInit": 1793985247,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 88,
+                      "psiCounterAutoCalib": 4
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793985091,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948759,
+                        "longitude": 5.884399
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793985655,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948504,
+                        "longitude": 5.910598
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793985247,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.949010799999996,
+                        "longitude": 5.8842849
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 27
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 7
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.942604178387384,
+                            "longitude": 5.894164297938389
+                          }
+                        },
+                        "value": 21.5,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.945211699999994,
+                            "longitude": 5.8876043
+                          }
+                        },
+                        "value": -21,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 36.77490774907749
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.94597089606932,
+                            "longitude": 5.885630993892332
+                          }
+                        },
+                        "value": 59,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 3.259
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.007246376811594203
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 69
+                    }
+                  },
+                  "drivingScore": 9.9,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 419
+                  }
+                }
+              },
+              {
+                "routeId": 30,
+                "extendRouteId": 1793984593,
+                "routeName": "Route-30",
+                "dateEnd": 1793985091,
+                "dateInit": 1793984593,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 117,
+                      "psiCounterAutoCalib": 4
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793984000,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911218,
+                        "longitude": 5.861752
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793985091,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948759,
+                        "longitude": 5.884399
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793984593,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911006538841825,
+                        "longitude": 5.861743457666087
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 39
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 17
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.95068462915891,
+                            "longitude": 5.879622888820322
+                          }
+                        },
+                        "value": 17.9,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.91519916373964,
+                            "longitude": 5.8669790494439615
+                          }
+                        },
+                        "value": -18.4,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 54.2913616398243
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.923114531383874,
+                            "longitude": 5.8757012254938505
+                          }
+                        },
+                        "value": 120,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 6.711
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.005952380952380952
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 84
+                    }
+                  },
+                  "drivingScore": 10,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 509
+                  }
+                }
+              },
+              {
+                "routeId": 29,
+                "extendRouteId": 1793983040,
+                "routeName": "Route-29",
+                "dateEnd": 1793984000,
+                "dateInit": 1793983040,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 38
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793982969,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.909662,
+                        "longitude": 5.736211
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793984000,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911218,
+                        "longitude": 5.861752
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793983040,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.90978559549387,
+                        "longitude": 5.736550877897228
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 27
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 18
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.908008607582275,
+                            "longitude": 5.78575262194803
+                          }
+                        },
+                        "value": 27.6,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.90776626701387,
+                            "longitude": 5.785691035686463
+                          }
+                        },
+                        "value": -23.9,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 47.095417451349654
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.901261901391635,
+                            "longitude": 5.777107894585561
+                          }
+                        },
+                        "value": 100,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 11.839
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.002070393374741201
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 161
+                    }
+                  },
+                  "drivingScore": 9.1,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 971
+                  }
+                }
+              },
+              {
+                "routeId": 28,
+                "extendRouteId": 1793979819,
+                "routeName": "Route-28",
+                "dateEnd": 1793982969,
+                "dateInit": 1793979819,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 104
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793979514,
+                    "gps": {
+                      "location": {
+                        "latitude": 52.029167,
+                        "longitude": 5.622298
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793982969,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.909662,
+                        "longitude": 5.736211
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793979819,
+                    "gps": {
+                      "location": {
+                        "latitude": 52.02894763222006,
+                        "longitude": 5.62249245173242
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 27
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 11
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.94026161522589,
+                            "longitude": 5.762519356611297
+                          }
+                        },
+                        "value": 22.7,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.941896512568036,
+                            "longitude": 5.762241386019738
+                          }
+                        },
+                        "value": -27.8,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 48.50831624515835
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 52.02139261890528,
+                            "longitude": 5.719604305291786
+                          }
+                        },
+                        "value": 125,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 38.747
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0003168567807351077
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 526
+                    }
+                  },
+                  "drivingScore": 9,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 3161
+                  }
+                }
+              },
+              {
+                "routeId": 27,
+                "extendRouteId": 1793977246,
+                "routeName": "Route-27",
+                "dateEnd": 1793979514,
+                "dateInit": 1793977246,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 68
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793949709,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911259,
+                        "longitude": 5.861735
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793979514,
+                    "gps": {
+                      "location": {
+                        "latitude": 52.029167,
+                        "longitude": 5.622298
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793977246,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.910592199999996,
+                        "longitude": 5.861739099999999
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 72
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 8
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.994064689421215,
+                            "longitude": 5.6643113803987175
+                          }
+                        },
+                        "value": 19.5,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.98657688202551,
+                            "longitude": 5.744986992857775
+                          }
+                        },
+                        "value": -25.3,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 56.31575682382134
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.92252739795441,
+                            "longitude": 5.7713494597169355
+                          }
+                        },
+                        "value": 129,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 32.757
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0013192612137203166
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 379
+                    }
+                  },
+                  "drivingScore": 7.2,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 2279
+                  }
+                }
+              },
+              {
+                "routeId": 26,
+                "extendRouteId": 1793948941,
+                "routeName": "Route-26",
+                "dateEnd": 1793949709,
+                "dateInit": 1793948941,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 380,
+                      "psiCounterAutoCalib": 22
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793895002,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948556,
+                        "longitude": 5.910619
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793949709,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911259,
+                        "longitude": 5.861735
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793948941,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948696475741,
+                        "longitude": 5.910421156218611
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 27
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 22
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.9152493,
+                            "longitude": 5.8670241
+                          }
+                        },
+                        "value": 16.4,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.911426109823935,
+                            "longitude": 5.861734464958897
+                          }
+                        },
+                        "value": -17.4,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 50.74924471299094
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.94053784554689,
+                            "longitude": 5.878519654447823
+                          }
+                        },
+                        "value": 127,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 8.698
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.002583979328165375
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 129
+                    }
+                  },
+                  "drivingScore": 10,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 779
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "2026-11-05": [
+          {
+            "vehicle": {
+              "vehicleId": "22222222-2222-2222-2222-222222222222",
+              "registrationNumber": "00-XXX-0",
+              "logo": "https://example.invalid/logo.png"
+            },
+            "routes": [
+              {
+                "routeId": 25,
+                "extendRouteId": 1793893208,
+                "routeName": "Route-25",
+                "dateEnd": 1793895002,
+                "dateInit": 1793893208,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 36
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793860225,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911194,
+                        "longitude": 5.86168
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793895002,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948556,
+                        "longitude": 5.910619
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793893208,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.910592199999996,
+                        "longitude": 5.861739099999999
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 54
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 15
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.882872923827776,
+                            "longitude": 5.8594816940118255
+                          }
+                        },
+                        "value": 25.5,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.90921382574363,
+                            "longitude": 5.840922345020239
+                          }
+                        },
+                        "value": -18.2,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 48.577527184857026
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.905639749589156,
+                            "longitude": 5.872734340331904
+                          }
+                        },
+                        "value": 121,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 19.68
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0022222222222222222
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 300
+                    }
+                  },
+                  "drivingScore": 10,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 1805
+                  }
+                }
+              },
+              {
+                "routeId": 24,
+                "extendRouteId": 1793855683,
+                "routeName": "Route-24",
+                "dateEnd": 1793860225,
+                "dateInit": 1793855683,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 127
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793855529,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948735,
+                        "longitude": 5.884577
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 11
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793860225,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911194,
+                        "longitude": 5.86168
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793855683,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.949005799999995,
+                        "longitude": 5.8845149999999995
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 27
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 7
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.93286457235212,
+                            "longitude": 5.883429216167323
+                          }
+                        },
+                        "value": 25,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.91667413865667,
+                            "longitude": 5.861187217544284
+                          }
+                        },
+                        "value": -23.9,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 58.839043035107586
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 52.008131676655324,
+                            "longitude": 5.945452114343335
+                          }
+                        },
+                        "value": 126,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 70.778
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0008795074758135445
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 758
+                    }
+                  },
+                  "drivingScore": 4,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 4553
+                  }
+                }
+              },
+              {
+                "routeId": 23,
+                "extendRouteId": 1793855139,
+                "routeName": "Route-23",
+                "dateEnd": 1793855529,
+                "dateInit": 1793855139,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 297,
+                      "psiCounterAutoCalib": 10
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793812762,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948543,
+                        "longitude": 5.910581
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793855529,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948735,
+                        "longitude": 5.884577
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 11
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793855139,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.94917143046477,
+                        "longitude": 5.911194060453919
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.95067861686836,
+                            "longitude": 5.904655935855447
+                          }
+                        },
+                        "value": 11.6,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.95107332133187,
+                            "longitude": 5.884752546161821
+                          }
+                        },
+                        "value": -19,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 33.09493670886076
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.951044176732786,
+                            "longitude": 5.899003797958694
+                          }
+                        },
+                        "value": 49,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 2.922
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.010101010101010102
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 66
+                    }
+                  },
+                  "drivingScore": 10,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 401
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "2026-11-04": [
+          {
+            "vehicle": {
+              "vehicleId": "22222222-2222-2222-2222-222222222222",
+              "registrationNumber": "00-XXX-0",
+              "logo": "https://example.invalid/logo.png"
+            },
+            "routes": [
+              {
+                "routeId": 22,
+                "extendRouteId": 1793811622,
+                "routeName": "Route-22",
+                "dateEnd": 1793812762,
+                "dateInit": 1793811622,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 33
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793775477,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911254,
+                        "longitude": 5.861751
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793812762,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948543,
+                        "longitude": 5.910581
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793811622,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911309852836446,
+                        "longitude": 5.861736956723472
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 72
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 23
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.915081190594464,
+                            "longitude": 5.867239231106343
+                          }
+                        },
+                        "value": 15.8,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.948543,
+                            "longitude": 5.910581
+                          }
+                        },
+                        "value": -17.7,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 37.18812589413448
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.91841802652913,
+                            "longitude": 5.87503718487903
+                          }
+                        },
+                        "value": 80,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 9.484
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.002617801047120419
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 191
+                    }
+                  },
+                  "drivingScore": 8,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 1151
+                  }
+                }
+              },
+              {
+                "routeId": 21,
+                "extendRouteId": 1793774673,
+                "routeName": "Route-21",
+                "dateEnd": 1793775477,
+                "dateInit": 1793774673,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 433,
+                      "psiCounterAutoCalib": 24
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793722759,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948479,
+                        "longitude": 5.910561
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793775477,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911254,
+                        "longitude": 5.861751
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793774673,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.94877275498394,
+                        "longitude": 5.910309512031862
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 39
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 27
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.911463298021616,
+                            "longitude": 5.860627827989958
+                          }
+                        },
+                        "value": 16,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.911254,
+                            "longitude": 5.861751
+                          }
+                        },
+                        "value": -18.3,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 44.41499085923218
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.94483431707773,
+                            "longitude": 5.878653056960617
+                          }
+                        },
+                        "value": 122,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 8.714
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0012345679012345679
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 135
+                    }
+                  },
+                  "drivingScore": 10,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 815
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "2026-11-03": [
+          {
+            "vehicle": {
+              "vehicleId": "22222222-2222-2222-2222-222222222222",
+              "registrationNumber": "00-XXX-0",
+              "logo": "https://example.invalid/logo.png"
+            },
+            "routes": [
+              {
+                "routeId": 20,
+                "extendRouteId": 1793720635,
+                "routeName": "Route-20",
+                "dateEnd": 1793722759,
+                "dateInit": 1793720635,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 46
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793711929,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911311,
+                        "longitude": 5.861684
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793722759,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948479,
+                        "longitude": 5.910561
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793720635,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.9108649600864,
+                        "longitude": 5.861746492099916
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 54
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 12
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.882871928642885,
+                            "longitude": 5.859483072400028
+                          }
+                        },
+                        "value": 24.2,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.88287276916203,
+                            "longitude": 5.858275638401502
+                          }
+                        },
+                        "value": -21.7,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 61.09107468123862
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.895004443070455,
+                            "longitude": 5.86551569668219
+                          }
+                        },
+                        "value": 126,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 29.466
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.20892018779342722
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 355
+                    }
+                  },
+                  "drivingScore": 0,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 2135
+                  }
+                }
+              },
+              {
+                "routeId": 19,
+                "extendRouteId": 1793711161,
+                "routeName": "Route-19",
+                "dateEnd": 1793711929,
+                "dateInit": 1793711161,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 212,
+                      "psiCounterAutoCalib": 7
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793710867,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.951185,
+                        "longitude": 5.863936
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793711929,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911311,
+                        "longitude": 5.861684
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 6
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793711161,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.951197831131324,
+                        "longitude": 5.863607601301203
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 18
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 8
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.93180495844306,
+                            "longitude": 5.855530878290127
+                          }
+                        },
+                        "value": 15.3,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.947002919325406,
+                            "longitude": 5.857541657931912
+                          }
+                        },
+                        "value": -16.2,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 38.80927835051546
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.93989155112032,
+                            "longitude": 5.860039529704833
+                          }
+                        },
+                        "value": 79,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 6.279
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0012919896640826874
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 129
+                    }
+                  },
+                  "drivingScore": 10,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 779
+                  }
+                }
+              },
+              {
+                "routeId": 18,
+                "extendRouteId": 1793710189,
+                "routeName": "Route-18",
+                "dateEnd": 1793710867,
+                "dateInit": 1793710189,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 371,
+                      "psiCounterAutoCalib": 16
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793685735,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911309,
+                        "longitude": 5.861773
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793710867,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.951185,
+                        "longitude": 5.863936
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793710189,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911239256678996,
+                        "longitude": 5.861738469821961
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 39
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 9
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.91066110409601,
+                            "longitude": 5.860556232943021
+                          }
+                        },
+                        "value": 18.4,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.945001422294766,
+                            "longitude": 5.8625113842324525
+                          }
+                        },
+                        "value": -16.3,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 37.36551724137931
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.938702574784756,
+                            "longitude": 5.859355879338764
+                          }
+                        },
+                        "value": 79,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 6.628
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0029239766081871343
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 114
+                    }
+                  },
+                  "drivingScore": 10,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 689
+                  }
+                }
+              },
+              {
+                "routeId": 17,
+                "extendRouteId": 1793679513,
+                "routeName": "Route-17",
+                "dateEnd": 1793685735,
+                "dateInit": 1793679513,
+                "status": {
+                  "toHide": false,
+                  "finished": true,
+                  "routeReadyToBeCached": true
+                },
+                "device": {
+                  "deviceId": "860000000000000",
+                  "status": {
+                    "calibration": 1,
+                    "autocalibInfo": {
+                      "autocalibApplied": false,
+                      "autocalibValid": true,
+                      "deviceQuatType": 2,
+                      "phiThetaCounterAutoCalib": 511,
+                      "psiCounterAutoCalib": 127
+                    }
+                  },
+                  "config": {
+                    "firmwareVersion": 54
+                  }
+                },
+                "joinedRoutes": [],
+                "locationsSummary": {
+                  "lastLocationBeforeRoute": {
+                    "timestamp": 1793542041,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948553,
+                        "longitude": 5.910599
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 11
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationEnd": {
+                    "timestamp": 1793685735,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.911309,
+                        "longitude": 5.861773
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 3
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "locationInit": {
+                    "timestamp": 1793679513,
+                    "gps": {
+                      "location": {
+                        "latitude": 51.948570032537155,
+                        "longitude": 5.910653621458266
+                      },
+                      "accuracy": {
+                        "unit": "m",
+                        "value": 39
+                      },
+                      "speed": {
+                        "unit": "km/h",
+                        "value": 17
+                      }
+                    }
+                  }
+                },
+                "routeStats": {
+                  "angle": {
+                    "max": {
+                      "right": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.94867570005701,
+                            "longitude": 5.934176431718268
+                          }
+                        },
+                        "value": 26.5,
+                        "unit": "\u00c2\u00ba"
+                      },
+                      "left": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.94846318333527,
+                            "longitude": 5.934412204944096
+                          }
+                        },
+                        "value": -24.5,
+                        "unit": "\u00c2\u00ba"
+                      }
+                    }
+                  },
+                  "gps": {
+                    "speed": {
+                      "average": {
+                        "unit": "km/h",
+                        "value": 44.195624869164746
+                      },
+                      "max": {
+                        "gps": {
+                          "location": {
+                            "latitude": 51.94781739373028,
+                            "longitude": 5.830615271422541
+                          }
+                        },
+                        "value": 104,
+                        "unit": "km/h"
+                      }
+                    },
+                    "country": "Netherlands",
+                    "distance": {
+                      "unit": "km",
+                      "value": 74.222
+                    },
+                    "qualityError": {
+                      "unit": "%",
+                      "value": 0.0003211303789338471
+                    }
+                  },
+                  "connectivity": {
+                    "sending": {
+                      "sendingMessages": 0,
+                      "totalMessages": 1038
+                    }
+                  },
+                  "drivingScore": 6.1,
+                  "useTime": {
+                    "unit": "s",
+                    "value": 6233
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lastItem": {
+      "vehicleIds": [
+        "22222222-2222-2222-2222-222222222222"
+      ],
+      "endDate": 1793679513
+    }
+  }
+}

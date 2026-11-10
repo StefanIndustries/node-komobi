@@ -1,0 +1,46 @@
+{
+  "name": "node-komobi",
+  "version": "0.1.0",
+  "description": "Unofficial API client for the Komobi motorcycle/scooter GPS tracker",
+  "author": "Stefan Simon",
+  "main": "lib/komobi.js",
+  "types": "lib/komobi.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test test/*.test.cjs",
+    "lint": "npx eslint ./src",
+    "lint-fix": "npx eslint ./src --fix",
+    "start": "tsx watch --env-file=.env ./app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanIndustries/node-komobi.git"
+  },
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/StefanIndustries/node-komobi/issues"
+  },
+  "homepage": "https://github.com/StefanIndustries/node-komobi",
+  "keywords": [
+    "komobi",
+    "gps",
+    "tracker",
+    "motorcycle",
+    "scooter"
+  ],
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.3.22",
+    "axios": "^1.21.1"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.6",
+    "eslint": "^10.14.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.2"
+  }
+}
