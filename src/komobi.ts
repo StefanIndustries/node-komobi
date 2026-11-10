@@ -227,15 +227,15 @@ export class Komobi {
         return this.session;
     }
 
-    /** Uses the refresh token when there is one, falling back to a full login. */
+    /** Refreshes the session when there is one, falling back to a full login. */
     private async reauthenticate(): Promise<KomobiSession> {
-        const refreshToken = this.session?.refreshToken;
+        const hadSession = this.session !== undefined;
         return this.authenticate(async () => {
-            if (refreshToken) {
+            if (hadSession) {
                 try {
-                    return await this.auth.refresh(refreshToken);
+                    return await this.auth.refresh();
                 } catch {
-                    // Refresh token expired or revoked; log in from scratch.
+                    // Refresh token expired or revoked, or another account is signed in; log in from scratch.
                 }
             }
             return this.auth.login();

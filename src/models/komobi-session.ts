@@ -2,7 +2,6 @@ export interface KomobiSession {
     /** Cognito ID token; this is what the API expects in the Authorization header. */
     idToken: string;
     accessToken: string;
-    refreshToken: string;
     expiresAt: Date;
     /** Cognito user id (the `sub` claim). */
     userSub: string;

@@ -13,7 +13,7 @@ function fakeApi(options = {}) {
     const komobi = new Komobi({ email: 'rider@example.com', password: 'pw', baseURL: 'https://fake.test/' });
     const newSession = (ttlMs = 3600 * 1000) => {
         validToken = `id-${++issued}`;
-        return { idToken: validToken, accessToken: 'a', refreshToken: `r-${issued}`, expiresAt: new Date(Date.now() + ttlMs), userSub: 'sub', claims: {} };
+        return { idToken: validToken, accessToken: 'a', expiresAt: new Date(Date.now() + ttlMs), userSub: 'sub', claims: {} };
     };
     komobi['auth'] = {
         login: async () => {
