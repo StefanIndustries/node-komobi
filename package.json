@@ -1,6 +1,6 @@
 {
   "name": "node-komobi",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Unofficial API client for the Komobi motorcycle/scooter GPS tracker",
   "author": "Stefan Simon",
   "main": "lib/komobi.js",
