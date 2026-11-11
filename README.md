@@ -33,6 +33,7 @@ const vehicles = await komobi.getVehicles();
 const bike = vehicles[0];
 console.log(`${bike.brand} ${bike.model} - ${bike.currentKm} km`);
 console.log(bike.device?.lastLocation);   // { latitude, longitude, timestamp, ... }
+console.log(bike.device?.keychains);      // [{ bleId, batteryPercent, forgottenWarning, ... }]
 
 const routes = await komobi.getRoutes(bike.vehicleId, {
     from: new Date(Date.now() - 30 * 24 * 3600 * 1000),

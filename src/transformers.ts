@@ -1,5 +1,6 @@
 import {
     KomobiDeviceStatus,
+    KomobiKeychain,
     KomobiLocation,
     KomobiRoute,
     KomobiUser,
@@ -87,6 +88,30 @@ const deviceStatusTransformer = (device: Raw): KomobiDeviceStatus | undefined =>
         externalBatteryVolts: measure(battery.external),
         lastLocation,
         lastCommunication,
+        keychains: (Array.isArray(device.keychains) ? device.keychains : []).map(keychainTransformer).filter(k => k.bleId),
+    };
+};
+
+/** Komobi sends the key fob battery as a string ("100"); the tracker's own battery is a number. */
+const numeric = (value: unknown): number | undefined => {
+    const n = typeof value === 'string' && value.trim() !== '' ? Number(value) : value;
+    return num(n);
+};
+
+export const keychainTransformer = (value: unknown): KomobiKeychain => {
+    const k = obj(value);
+    const status = obj(k.status);
+    const config = obj(k.config);
+    const bool = (b: unknown) => (typeof b === 'boolean' ? b : undefined);
+    return {
+        bleId: str(k.bleId) ?? '',
+        name: str(k.name),
+        batteryPercent: numeric(obj(status.battery).value),
+        lastCommunication: date(obj(status.lastComunication).timestamp),
+        enabled: bool(status.enabled),
+        forgottenNotificationActive: bool(config.forgotNotificationActive),
+        forgottenWarning: bool(status.forgotNotificationWarning),
+        raw: k,
     };
 };
 

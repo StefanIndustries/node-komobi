@@ -44,6 +44,24 @@ export interface KomobiDeviceStatus {
     lastLocation?: KomobiLocation;
     /** Last time the tracker talked to the server. */
     lastCommunication?: Date;
+    /** Bluetooth key fobs paired with the tracker. */
+    keychains: KomobiKeychain[];
+}
+
+export interface KomobiKeychain {
+    /** Bluetooth id of the key fob; the id the Komobi app shows for it. */
+    bleId: string;
+    name?: string;
+    /** Charge of the key fob battery, in percent. */
+    batteryPercent?: number;
+    /** Last time the tracker heard the key fob. */
+    lastCommunication?: Date;
+    enabled?: boolean;
+    /** Whether Komobi warns when the vehicle leaves without this key fob nearby. */
+    forgottenNotificationActive?: boolean;
+    /** True while Komobi warns that the key fob was left behind. */
+    forgottenWarning?: boolean;
+    raw: unknown;
 }
 
 export interface KomobiVehicle {

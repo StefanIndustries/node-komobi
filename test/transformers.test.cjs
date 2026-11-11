@@ -32,6 +32,27 @@ test('vehicleTransformer maps vehicle, battery and last location', () => {
     assert.ok(Math.abs(v.device.lastLocation.longitude - 5.910607) < 1e-6);
 });
 
+test('vehicleTransformer maps the key fobs, with the battery sent as a string', () => {
+    const v = vehicleTransformer(unwrapItems(fixtures.vehicles)[0]);
+    assert.equal(v.device.keychains.length, 1);
+    const fob = v.device.keychains[0];
+    assert.equal(fob.bleId, 'CFFBCA9CF8A8');
+    assert.equal(fob.name, 'rKtmYpwV');
+    assert.equal(fob.batteryPercent, 100);
+    assert.equal(fob.enabled, true);
+    assert.equal(fob.forgottenNotificationActive, true);
+    assert.equal(fob.forgottenWarning, false);
+    assert.equal(fob.lastCommunication.getTime(), 1794240955 * 1000);
+});
+
+test('key fobs without an id or with an unreadable battery are handled', () => {
+    const v = vehicleTransformer({ device: { status: { isActive: true }, keychains: [
+        { bleId: 'AA', status: { battery: { value: 'n/a' } } }, { name: 'no id' }, { bleId: 'BB', status: { battery: { value: 35 } } },
+    ] } });
+    assert.deepEqual(v.device.keychains.map(k => [k.bleId, k.batteryPercent]), [['AA', undefined], ['BB', 35]]);
+    assert.deepEqual(vehicleTransformer({ device: { status: { isActive: true } } }).device.keychains, []);
+});
+
 test('routesTransformer flattens day groups into rides, newest first', () => {
     const routes = routesTransformer(fixtures.routes);
     assert.ok(routes.length >= 2);
