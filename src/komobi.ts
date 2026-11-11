@@ -38,7 +38,7 @@ export class Komobi {
     private userFleetId: string | undefined = undefined;
 
     constructor(private options: KomobiOptions) {
-        this.auth = new CognitoAuthenticator(options.email, options.password);
+        this.auth = new CognitoAuthenticator(options.email, options.password, options.timeout ?? 15000);
         this.timeZone = options.timeZone ?? 'UTC';
         this.ax = axios.create({
             baseURL: options.baseURL ?? defaultBaseURL,

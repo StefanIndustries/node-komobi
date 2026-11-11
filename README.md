@@ -49,9 +49,9 @@ Login uses the same AWS Cognito user pool as the app (SRP, so the password itsel
 It happens automatically before the first request; the ID token is refreshed before it expires and
 when the API rejects it, after which the request is retried once. Wrong credentials throw a `KomobiLoginError`.
 
-Authentication runs on AWS Amplify v6 (`aws-amplify/auth`), with tokens kept in memory. Amplify holds
-one signed-in user per process: several `Komobi` instances work, but when they use different accounts
-each switch costs a fresh login.
+Authentication calls the Cognito user pool API directly (`InitiateAuth` / `RespondToAuthChallenge`), with
+the SRP math done by `node:crypto` and no AWS SDK, so the package stays small. Tokens are kept in memory per
+`Komobi` instance, so several accounts can be signed in at the same time.
 
 `getVehicles()` first resolves the account's internal fleet id from the user record (and caches it),
 because the vehicle endpoint is keyed by fleet, not by the login. Komobi expects the account's
